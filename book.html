@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booking</title>
+    <link rel="stylesheet" href="./book.css">
+</head>
+<body>
+
+<header class="site-header">
+    <a class="brand" href="index.html">
+         Our School
+    </a>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="activity.html">Activities</a>
+        <a href="article .html">Blog</a>
+        <a href="book.html">About</a>
+        <a href="login.html">Login</a>
+    </nav>
+</header>
+
+<section class="page-banner">
+    <h1> Booking</h1>
+    <p>Fill in the details</p>
+</section>
+
+<main class="container">
+
+    <div class="wrap">
+
+     <form action="#">
+
+     <div class="form-grid">
+
+       <section>
+     <h3>Information</h3>
+
+    <label for="fullname">Full Name</label>
+
+     <input
+   type="text"
+        id="fullname"
+       name="fullname"
+     placeholder="Enter your full name"
+    required >
+
+     <label for="email">Email Address</label>
+
+     <input
+  type="email"
+       id="email"
+        name="email"
+     placeholder="Enter your email"
+       required
+         >
+
+     <label for="phone">Phone Number</label>
+
+    <input
+    type="tel"
+    id="phone"
+   name="phone"
+   placeholder="Enter your phone number"
+                    >
+     </section>
+
+     <section>
+     <h3>Booking </h3>
+
+ <label for="course">Course </label>
+
+ <select id="course" name="course" required>
+ <option value="">Select a course </option>
+<option>Programming </option>
+   <option>Ai</option>
+   <option>network</option>
+  <option>telecom</option>
+                    
+    <option>digital art</option>
+          </select>
+
+     <label for="date">Date</label>
+
+   <input
+       type="date"
+     id="date"
+     name="date"
+       required
+        >
+<label for="message">Message (Optional)</label>
+
+    <textarea
+      id="message"
+      name="message"
+      placeholder="Type your message"
+     ></textarea>
+    </section>
+
+      </div>
+   <button class="btn" type="submit">
+        Submit
+     </button>
+
+        </form>
+
+    </div>
+
+</main>
+
+<footer class="footer">
+    © 2026 Our School
+</footer>
+
+</body>
+</html>

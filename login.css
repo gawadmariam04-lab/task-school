@@ -1,0 +1,159 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(120deg, #eaf5ff, #f2eaff);
+    color: #480255;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+a {
+    text-decoration: none;
+}
+
+.site-header {
+    background: linear-gradient(90deg, #3b0142, #a81de3);
+    color: white;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.brand {
+    color: white;
+    font-size: 23px;
+    font-weight: bold;
+}
+
+nav {
+    display: flex;
+    gap: 22px;
+    flex-wrap: wrap;
+}
+
+nav a {
+    color: white;
+}
+
+nav a:hover,
+nav a.active {
+    color: #d434da;
+}
+
+.container {
+    width: 92%;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.form-wrap {
+    max-width: 430px;
+    margin: 60px auto;
+    background: white;
+    padding: 32px;
+    border-radius: 14px;
+    box-shadow: 0 10px 35px #12356818;
+}
+
+.form-title {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.big-icon {
+    font-size: 38px;
+    color: #961b92;
+}
+
+.form-title h2 {
+    font-size: 23px;
+    margin: 8px 0;
+}
+
+.form-title p {
+    color: #647895;
+    font-size: 13px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: bold;
+    margin: 15px 0 6px;
+}
+
+input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #d5e1ef;
+    border-radius: 7px;
+    background: #fbfdff;
+    font-size: 14px;
+}
+
+input:focus {
+    outline: 2px solid #d55ceb;
+    border-color: #460655;
+}
+
+.btn {
+    width: 100%;
+    background: #611687;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 7px;
+    margin-top: 22px;
+    cursor: pointer;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+.btn:hover {
+    background: #3a023c;
+}
+
+.form-note {
+    text-align: center;
+    color: #647895;
+    font-size: 14px;
+    margin-top: 18px;
+}
+
+.form-note a {
+    color: #7d0b93;
+    font-weight: bold;
+}
+
+.footer {
+    background: #1d043f;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+@media (max-width: 560px) {
+    .site-header {
+        justify-content: center;
+    }
+
+    nav {
+        justify-content: center;
+        gap: 12px;
+    }
+
+    .form-wrap {
+        padding: 22px;
+        margin: 35px auto;
+    }
+}
